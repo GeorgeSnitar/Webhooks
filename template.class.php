@@ -6,7 +6,7 @@ class Template{
 
       public function set($data){
             $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, 'https://api.telegram.org/bot5590690094:AAGErfl77g46eqgUkdf2B6Fd2HDj4QQ19ZA/sendMessage');
+            curl_setopt($ch, CURLOPT_URL, 'https://api.telegram.org/bot<access token>/method');
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
             curl_setopt($ch, CURLOPT_HTTPHEADER, [
